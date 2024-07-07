@@ -1,0 +1,129 @@
+/* styles/home.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf1f5;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: black;
+    color: #fff;
+}
+
+header .logo {
+    width: 150px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav input {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+header nav a {
+    margin-left: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main .banner {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.banner img {
+    width: 100%;
+    height: 250px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0e0d0d;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.banner-text h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+.best-seller {
+    padding: 2rem;
+    background-color: #f5e6ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    border-radius: 8px;
+}
+
+.best-seller h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.book-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.book {
+    text-align: center;
+    margin: 1rem;
+    flex: 0 1 200px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.book p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}

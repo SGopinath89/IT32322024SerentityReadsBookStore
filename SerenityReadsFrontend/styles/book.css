@@ -1,0 +1,99 @@
+/* styles/book.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf1f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: black;
+    color: #fff;
+}
+
+header .logo {
+    margin-left: 30px;
+    width: 150px;
+}
+
+header nav{
+    margin-right: 30px;
+}
+
+header nav a {
+    margin-left: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.book-details-container {
+    max-width: 1200px;
+    width: 80%;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.book-details-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 2rem;
+}
+
+.book-info {
+    max-width: 800px;
+}
+
+.book-info h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #02015f;
+}
+
+.book-info p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #7d639e;
+}
+
+#add-to-cart {
+    padding: 0.5rem 1rem;
+    background-color: #580343;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-to-cart:hover {
+    background-color: #555;
+}
