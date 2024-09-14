@@ -7,7 +7,6 @@ Serenity Reads is an e-commerce platform dedicated to book enthusiasts, providin
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Spring Boot
-- **Database:** [Specify your database system if applicable]
 
 ## Features
 
